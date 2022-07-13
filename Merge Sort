@@ -1,0 +1,20 @@
+1.) [16,21,11,8,12,22] --- Merge Sort  First we divide by 2. Next, we divide and sort them all one by one.
+
+1 Step : [16,21,11] and [8,12,22] divide by 2
+
+2.Step: [16,21].[11] and [8,12],[22] like thar divede
+
+3.Step: [16],[21],[11] and [8],[12],[22] we divide and sort them all one by one.
+
+4.Step: You're going to do the concatenation, put the small number first.
+
+In this direction, the order of our array like that
+
+ [16,21][11] and  [8,12][22] comingg numbers or array will be added in order of size
+
+5.Step: [11,16,21] and [8,12,22] sorted divide by 2
+
+6. Step: [8,11,12,16,21,22] end this
+
+
+2.)Write the Big-O notation ------------->  O(nlogn) 
